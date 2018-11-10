@@ -1,0 +1,91 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #f7f0e0;
+	overflow-x: hidden;
+
+}
+
+.banner{
+	background-image: url('http://s0.wp.com/wp-content/mu-plugins/annual-reports/img/2012-big-banner.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 530px 80px;
+	text-align: center;
+	color: #FEECBF;
+	position: relative;
+	top: -20px; 
+	font-size: 48px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	margin: 0 auto !important;
+}
+
+.head{
+	padding: 10px; 
+	background-color: #21363D;
+}
+
+.content{
+	background: #f7f0e0;
+	box-shadow: 0 0 5px 1px rgba(2, 13, 31, 0.4);
+}
+
+.customWell{
+padding: 10px;
+	overflow: hidden;
+	clear: both; 
+	background:-webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(245,245,245)),color-stop(0.33, rgb(255,255,255)));
+	background:-moz-linear-gradient(center bottom,rgb(245,245,245) 0%,rgb(255,255,255) 33%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF5F5F5');
+	background-color: #ffffff;
+	border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; -khtml-border-radius: 6px;
+	border-color: #e5e5e5 #dbdbdb #d2d2d2; -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+
+}
+
+.montserrat{
+	font-family: Montserrat;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-table;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}
+
+li > a{
+	color: white;
+}
+
+.conlinks{
+	font-size: 20px;
+}
+
+hr.style-eight {
+      border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
